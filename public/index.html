@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M-Pesa Daraja STK Push — Sandbox Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h2>Pay with M-Pesa</h2>
+  <form id="form">
+    <input name="phone" placeholder="07XX XXX XXX" inputmode="tel" required>
+    <input name="amount" type="number" min="1" step="1" placeholder="Amount (KES)" required>
+    <input name="account_ref" placeholder="Reference (optional)">
+    <button id="btn" type="submit">Pay</button>
+  </form>
+  <div id="msg" role="status" aria-live="polite"></div>
+  <small>Only a successful callback can provide the M-Pesa receipt number. An accepted STK Push is not proof of
+    payment.</small>
+  <script src="script.js"></script>
+</body>
+
+</html>

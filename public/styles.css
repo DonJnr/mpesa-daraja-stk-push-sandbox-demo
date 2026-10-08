@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 430px;
+  margin: 55px auto;
+  padding: 0 18px;
+  color: #172b20
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 7px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 7px
+}
+
+input {
+  border: 1px solid #b9c9c0
+}
+
+button {
+  background: #16803c;
+  color: #fff;
+  border: 0;
+  cursor: pointer
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: wait
+}
+
+#msg {
+  margin-top: 18px;
+  line-height: 1.6;
+  white-space: pre-line;
+  overflow-wrap: anywhere
+}
+
+#receipt {
+  font-weight: 700
+}
+
+small {
+  color: #52665a
+}
